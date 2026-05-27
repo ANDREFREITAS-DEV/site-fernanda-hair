@@ -1,37 +1,45 @@
 # Fernanda Make e Hair — Landing Page
 
-Landing page profissional para o salão **Fernanda Make e Hair** em Andradina, SP.
+Landing page profissional para **Fernanda Make e Hair** — Andradina, SP.
 
-## Stack
-- HTML5 + CSS3 + JavaScript puro
-- Fontes: Google Fonts (Cormorant Garamond + Jost)
-- Sem dependências externas / sem banco de dados
+## Estrutura
+```
+fernanda-hair/
+├── index.html        ← página principal
+├── images/           ← todas as fotos otimizadas
+│   ├── hero.jpg
+│   ├── sobre-1.jpg
+│   ├── sobre-2.jpg
+│   ├── sobre-3.jpg
+│   ├── gal-1.jpg
+│   ├── gal-2.jpg
+│   ├── gal-3.jpg
+│   ├── gal-4.jpg
+│   ├── gal-5.jpg
+│   └── gal-6.jpg
+├── vercel.json       ← config de cache para Vercel
+└── .gitignore
+```
 
 ## Deploy na Vercel
 
-### Opção 1 — Via Git (recomendado)
-1. Crie um repositório no GitHub e faça push desta pasta
-2. Acesse [vercel.com](https://vercel.com) → **Add New Project**
-3. Importe o repositório
-4. Clique em **Deploy** — pronto!
+### Drag & Drop (mais rápido)
+1. Acesse vercel.com/new
+2. Arraste esta pasta
 
-### Opção 2 — Via Vercel CLI
+### Via GitHub
 ```bash
-npm i -g vercel
-cd fernanda-hair
-vercel
+git init
+git add .
+git commit -m "feat: landing Fernanda Make e Hair"
+git remote add origin https://github.com/SEU_USER/fernanda-hair.git
+git push -u origin main
 ```
+Depois conecte o repo na Vercel.
 
-### Opção 3 — Drag & Drop
-1. Acesse [vercel.com/new](https://vercel.com/new)
-2. Arraste a pasta `fernanda-hair` direto na tela
+## Para trocar uma foto
+Substitua qualquer arquivo em `/images/` pelo novo (mesmo nome), faça commit e push — a Vercel atualiza automaticamente.
 
-## Customizações futuras
-- Substituir link do Facebook em 2 lugares (`https://www.facebook.com/`)
-- Atualizar depoimentos com nomes reais
-- Ajustar anos de experiência e estatísticas se necessário
-
-## Contato
-WhatsApp: (18) 99810-7574  
-Instagram: @fernandaabraha0  
-Endereço: Rua Jefferson Correia de Lima, 30 — Andradina, SP
+## Pendências
+- Substituir URL do Facebook (`https://www.facebook.com/`) pelo link real
+- Atualizar depoimentos com nomes reais das clientes
