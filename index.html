@@ -7,11 +7,11 @@
 <meta name="description" content="Cabeleireira e maquiadora profissional em Andradina SP. Especialista em coloração, escova, progressiva e make noiva. Agende pelo WhatsApp."/>
 <meta name="robots" content="index, follow"/>
 <meta name="theme-color" content="#c9a84c"/>
-<link rel="canonical" href="https://fernandamakehair.vercel.app/"/>
+<link rel="canonical" href="https://fernanda.hair.pedeagora.ia.br/"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Fernanda Abrahão | Estética Capilar — Andradina SP"/>
 <meta property="og:description" content="Cabeleireira e maquiadora profissional em Andradina SP. Especialista em noivas, coloração, escova e tratamentos capilares."/>
-<meta property="og:url" content="https://fernandamakehair.vercel.app/"/>
+<meta property="og:url" content="https://fernanda.hair.pedeagora.ia.br/"/>
 <meta property="og:locale" content="pt_BR"/>
 <meta property="og:site_name" content="Fernanda Abrahão Estética Capilar"/>
 <meta name="twitter:card" content="summary_large_image"/>
@@ -20,6 +20,13 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"HairSalon","name":"Fernanda Abrahão Estética Capilar","description":"Cabeleireira e maquiadora profissional em Andradina SP.","url":"https://fernandamakehair.vercel.app/","telephone":"+5518998107574","address":{"@type":"PostalAddress","streetAddress":"Rua Jefferson Correia de Lima, 30","addressLocality":"Andradina","addressRegion":"SP","addressCountry":"BR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}],"sameAs":["https://www.instagram.com/fernandaabraha0"],"priceRange":"$$"}
 </script>
+<link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32"/>
+<link rel="apple-touch-icon" href="images/apple-touch-icon.jpg"/>
+<meta property="og:image" content="https://fernanda.hair.pedeagora.ia.br/images/og-image.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="Fernanda Abrahão — Estética Capilar, Andradina SP"/>
+<meta name="twitter:image" content="https://fernanda.hair.pedeagora.ia.br/images/og-image.jpg"/>
 <link rel="preload" as="image" href="images/hero.jpg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
@@ -36,6 +43,10 @@ body{background:var(--dark);color:#e8e0d0;font-family:"Jost",sans-serif;font-wei
 nav{position:fixed;top:0;width:100%;z-index:100;padding:1rem 5vw;display:flex;justify-content:space-between;align-items:center;transition:.4s;}
 nav.scrolled{background:rgba(13,13,13,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,168,76,.15);}
 .nav-logo img{height:52px;width:52px;object-fit:contain;filter:drop-shadow(0 0 6px rgba(201,168,76,.3));}
+.nav-brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;}
+.nav-brand-text{display:flex;flex-direction:column;line-height:1.1;}
+.nav-brand-name{font-family:"Cormorant Garamond",serif;font-size:1.1rem;font-weight:400;color:var(--gold);letter-spacing:.12em;}
+.nav-brand-sub{font-size:.5rem;letter-spacing:.32em;text-transform:uppercase;color:rgba(201,168,76,.6);font-weight:300;}
 .nav-links{display:flex;gap:2.5rem;list-style:none;}
 .nav-links a{color:#ccc;text-decoration:none;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;transition:.3s;}
 .nav-links a:hover{color:var(--gold);}
@@ -187,6 +198,8 @@ h2 em{font-style:italic;color:var(--gold);}
 /* ── FOOTER ── */
 footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2.2rem 5vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.1rem;}
 .fl img{height:44px;width:44px;object-fit:contain;filter:drop-shadow(0 0 4px rgba(201,168,76,.25));}
+.fl .nav-brand-name{font-size:.95rem;}
+.fl .nav-brand-sub{font-size:.45rem;}
 .fc{font-size:.6rem;letter-spacing:.1em;color:#3a3a3a;text-align:center;}
 .flinks{display:flex;gap:1.4rem;}
 .flinks a{font-size:.6rem;letter-spacing:.1em;color:#3a3a3a;text-decoration:none;text-transform:uppercase;transition:.3s;}
@@ -233,7 +246,13 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2
 <!-- NAV -->
 <nav id="nav">
   <div class="nav-logo">
-    <a href="#hero"><img src="images/logo.png" alt="Fernanda Abrahão Estética Capilar"/></a>
+    <a href="#hero" class="nav-brand">
+      <img src="images/logo.png" alt="Fernanda Abrahão"/>
+      <span class="nav-brand-text">
+        <span class="nav-brand-name">Fernanda Abrahão</span>
+        <span class="nav-brand-sub">Estética Capilar</span>
+      </span>
+    </a>
   </div>
   <ul class="nav-links">
     <li><a href="#sobre">Sobre</a></li>
@@ -434,7 +453,15 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2
 
 <!-- FOOTER -->
 <footer>
-  <div class="fl"><img src="images/logo.png" alt="Fernanda Abrahão"/></div>
+  <div class="fl">
+    <a href="#hero" class="nav-brand">
+      <img src="images/logo.png" alt="Fernanda Abrahão"/>
+      <span class="nav-brand-text">
+        <span class="nav-brand-name">Fernanda Abrahão</span>
+        <span class="nav-brand-sub">Estética Capilar</span>
+      </span>
+    </a>
+  </div>
   <div class="fc">© 2025 Fernanda Abrahão Estética Capilar · Andradina, SP · Todos os direitos reservados</div>
   <div class="flinks">
     <a href="#sobre">Sobre</a>
