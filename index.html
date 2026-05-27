@@ -3,67 +3,39 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Fernanda Make e Hair | Cabeleireira &amp; Maquiadora — Andradina</title>
-<meta name="description" content="Cabeleireira e maquiadora profissional em Andradina SP. Realce sua beleza com Fernanda Abraham. Agende pelo WhatsApp."/>
+<title>Fernanda Abrahão | Estética Capilar — Andradina SP</title>
+<meta name="description" content="Cabeleireira e maquiadora profissional em Andradina SP. Especialista em coloração, escova, progressiva e make noiva. Agende pelo WhatsApp."/>
 <meta name="robots" content="index, follow"/>
 <meta name="theme-color" content="#c9a84c"/>
 <link rel="canonical" href="https://fernandamakehair.vercel.app/"/>
-
-<!-- Open Graph (preview Facebook, WhatsApp, Instagram) -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Fernanda Make e Hair | Cabeleireira &amp; Maquiadora — Andradina SP"/>
-<meta property="og:description" content="Cabeleireira e maquiadora profissional em Andradina SP. Especialista em noivas, coloração, escova e tratamentos capilares. Agende pelo WhatsApp."/>
+<meta property="og:title" content="Fernanda Abrahão | Estética Capilar — Andradina SP"/>
+<meta property="og:description" content="Cabeleireira e maquiadora profissional em Andradina SP. Especialista em noivas, coloração, escova e tratamentos capilares."/>
 <meta property="og:url" content="https://fernandamakehair.vercel.app/"/>
 <meta property="og:locale" content="pt_BR"/>
-<meta property="og:site_name" content="Fernanda Make e Hair"/>
-
-<!-- Twitter Card -->
+<meta property="og:site_name" content="Fernanda Abrahão Estética Capilar"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Fernanda Make e Hair | Cabeleireira &amp; Maquiadora"/>
-<meta name="twitter:description" content="Cabeleireira e maquiadora profissional em Andradina SP. Agende pelo WhatsApp."/>
-
-<!-- Schema.org Local Business (SEO Google Maps) -->
+<meta name="twitter:title" content="Fernanda Abrahão | Estética Capilar"/>
+<meta name="twitter:description" content="Cabeleireira e maquiadora profissional em Andradina SP."/>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HairSalon",
-  "name": "Fernanda Make e Hair",
-  "description": "Cabeleireira e maquiadora profissional em Andradina SP. Especialista em noivas, coloração, escova e tratamentos capilares.",
-  "url": "https://fernandamakehair.vercel.app/",
-  "telephone": "+5518998107574",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Rua Jefferson Correia de Lima, 30",
-    "addressLocality": "Andradina",
-    "addressRegion": "SP",
-    "addressCountry": "BR"
-  },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-      "opens": "08:00",
-      "closes": "18:00"
-    }
-  ],
-  "sameAs": [
-    "https://www.instagram.com/fernandaabraha0"
-  ],
-  "priceRange": "$$"
-}
+{"@context":"https://schema.org","@type":"HairSalon","name":"Fernanda Abrahão Estética Capilar","description":"Cabeleireira e maquiadora profissional em Andradina SP.","url":"https://fernandamakehair.vercel.app/","telephone":"+5518998107574","address":{"@type":"PostalAddress","streetAddress":"Rua Jefferson Correia de Lima, 30","addressLocality":"Andradina","addressRegion":"SP","addressCountry":"BR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}],"sameAs":["https://www.instagram.com/fernandaabraha0"],"priceRange":"$$"}
 </script>
 <link rel="preload" as="image" href="images/hero.jpg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
 <style>
-:root{--gold:#c9a84c;--gold-light:#e8d5a3;--dark:#0d0d0d;--dark2:#1a1a1a;--dark3:#242424;}
+:root{
+  --gold:#c9a84c;--gold-light:#e8d5a3;--dark:#0d0d0d;--dark2:#1a1a1a;--dark3:#242424;
+}
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{background:var(--dark);color:#e8e0d0;font-family:"Jost",sans-serif;font-weight:300;overflow-x:hidden;}
 ::-webkit-scrollbar{width:3px;}::-webkit-scrollbar-thumb{background:var(--gold);}
-nav{position:fixed;top:0;width:100%;z-index:100;padding:1.2rem 5vw;display:flex;justify-content:space-between;align-items:center;transition:.4s;}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;width:100%;z-index:100;padding:1rem 5vw;display:flex;justify-content:space-between;align-items:center;transition:.4s;}
 nav.scrolled{background:rgba(13,13,13,.96);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,168,76,.15);}
-.nav-logo{font-family:"Cormorant Garamond",serif;font-size:1.15rem;letter-spacing:.2em;color:var(--gold);font-weight:300;text-transform:uppercase;}
+.nav-logo img{height:52px;width:52px;object-fit:contain;filter:drop-shadow(0 0 6px rgba(201,168,76,.3));}
 .nav-links{display:flex;gap:2.5rem;list-style:none;}
 .nav-links a{color:#ccc;text-decoration:none;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;transition:.3s;}
 .nav-links a:hover{color:var(--gold);}
@@ -76,6 +48,8 @@ nav.scrolled{background:rgba(13,13,13,.96);backdrop-filter:blur(12px);border-bot
 .mm a{color:#ddd;text-decoration:none;font-size:1rem;letter-spacing:.25em;text-transform:uppercase;}
 .mm a:hover{color:var(--gold);}
 .mm-close{position:absolute;top:1.5rem;right:2rem;font-size:1.8rem;color:var(--gold);cursor:pointer;background:none;border:none;}
+
+/* ── HERO ── */
 #hero{height:100vh;position:relative;display:flex;align-items:flex-end;overflow:hidden;}
 .hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#0d0d0d,#1a1208 60%,#0d0d0d);}
 .hero-img{position:absolute;right:0;top:0;width:55%;height:100%;object-fit:cover;object-position:top;filter:brightness(.85);}
@@ -94,23 +68,28 @@ h1 em{font-style:italic;color:var(--gold);}
 .scind{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;color:var(--gold);font-size:.56rem;letter-spacing:.3em;z-index:2;}
 .scline{width:1px;height:42px;background:linear-gradient(to bottom,var(--gold),transparent);animation:sp 2s ease-in-out infinite;}
 @keyframes sp{0%,100%{opacity:.3;}50%{opacity:1;}}
+
+/* ── MARQUEE ── */
 .mqstrip{background:var(--gold);padding:.5rem 0;overflow:hidden;white-space:nowrap;}
 .mqtrack{display:inline-block;animation:mq 22s linear infinite;}
 .mqtrack span{font-size:.56rem;letter-spacing:.28em;text-transform:uppercase;color:var(--dark);font-weight:500;padding:0 1.6rem;}
 .mqtrack span.d{color:rgba(13,13,13,.3);}
 @keyframes mq{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ── COMMONS ── */
 section{padding:5.5rem 5vw;}
 .stag{font-size:.58rem;letter-spacing:.38em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;display:flex;align-items:center;gap:.7rem;}
 .stag::before{content:"";width:16px;height:1px;background:var(--gold);}
 .stag.c{justify-content:center;}
 h2{font-family:"Cormorant Garamond",serif;font-size:clamp(1.9rem,4vw,3rem);font-weight:300;line-height:1.1;margin-bottom:.9rem;}
 h2 em{font-style:italic;color:var(--gold);}
+
+/* ── SOBRE ── */
 #sobre{background:var(--dark2);}
 .sobre-g{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;max-width:1100px;margin:0 auto;}
-.sobre-imgs{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;position:relative;}
-.sobre-imgs img{width:100%;object-fit:cover;}
-.sobre-imgs img:first-child{grid-row:span 2;height:440px;}
-.sobre-imgs img:nth-child(2),.sobre-imgs img:nth-child(3){height:213px;}
+/* 4 fotos: grid 2x2 */
+.sobre-imgs{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:.7rem;position:relative;}
+.sobre-imgs img{width:100%;height:260px;object-fit:cover;object-position:center top;}
 .gf{position:absolute;top:-11px;left:-11px;width:55px;height:55px;border-top:1.5px solid var(--gold);border-left:1.5px solid var(--gold);}
 .gf2{position:absolute;bottom:-11px;right:-11px;width:55px;height:55px;border-bottom:1.5px solid var(--gold);border-right:1.5px solid var(--gold);}
 .sobre-tx p{color:#bbb;line-height:1.9;font-size:.86rem;margin-bottom:1.3rem;}
@@ -118,6 +97,8 @@ h2 em{font-style:italic;color:var(--gold);}
 .stat{border-left:2px solid var(--gold);padding-left:.8rem;}
 .stat-n{font-family:"Cormorant Garamond",serif;font-size:2.4rem;color:var(--gold);font-weight:300;line-height:1;}
 .stat-l{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:#666;margin-top:.2rem;}
+
+/* ── SERVIÇOS ── */
 #servicos{background:var(--dark);}
 .sh{text-align:center;max-width:540px;margin:0 auto 3rem;}
 .sh p{color:#777;font-size:.86rem;line-height:1.8;}
@@ -131,13 +112,47 @@ h2 em{font-style:italic;color:var(--gold);}
 .sc-name{font-family:"Cormorant Garamond",serif;font-size:1.25rem;margin-bottom:.5rem;}
 .sc:hover .sc-name{color:var(--gold);}
 .sc-desc{font-size:.76rem;color:#666;line-height:1.8;}
+
+/* ── GALERIA ── */
 #galeria{background:var(--dark2);padding:5.5rem 0;}
 .gh{text-align:center;padding:0 5vw;max-width:560px;margin:0 auto 2.5rem;}
-.gg{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;}
-.gi{overflow:hidden;position:relative;height:260px;}
-.gi.tall{height:523px;}
-.gi img{width:100%;height:100%;object-fit:cover;transition:.6s;filter:brightness(.78);}
+/* Grid 4 colunas desktop — todos 3:4 */
+.gg{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:4px;
+  max-width:1400px;
+  margin:0 auto;
+}
+.gi{
+  position:relative;
+  overflow:hidden;
+  aspect-ratio:3/4;
+  background:var(--dark3);
+}
+.gi img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center top;
+  transition:.6s;
+  filter:brightness(.8);
+  display:block;
+}
 .gi:hover img{transform:scale(1.07);filter:brightness(1);}
+.gi-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(0,0,0,.55) 0%,transparent 55%);
+  opacity:0;transition:.3s;
+  display:flex;align-items:flex-end;padding:1rem;
+}
+.gi:hover .gi-overlay{opacity:1;}
+.gi-label{
+  font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold-light);
+}
+
+/* ── DEPOIMENTOS ── */
 #depoimentos{background:var(--dark);}
 .dg{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:2.8rem;max-width:960px;margin-left:auto;margin-right:auto;}
 .dc{background:var(--dark2);padding:1.8rem;border-bottom:2px solid var(--gold);position:relative;}
@@ -145,12 +160,16 @@ h2 em{font-style:italic;color:var(--gold);}
 .d-stars{color:var(--gold);font-size:.72rem;margin-bottom:.4rem;}
 .d-text{font-size:.8rem;color:#bbb;line-height:1.8;font-style:italic;padding-top:1rem;}
 .d-auth{margin-top:.9rem;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);}
+
+/* ── CTA ── */
 #cta{background:linear-gradient(135deg,#181008,#0d0d0d,#181008);text-align:center;position:relative;overflow:hidden;}
 #cta::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 60% 60% at 50% 50%,rgba(201,168,76,.05),transparent 70%);}
 #cta>div{position:relative;z-index:1;}
 .cline{width:48px;height:1px;background:var(--gold);display:inline-block;vertical-align:middle;margin:0 .7rem;}
 #cta h2{margin-top:1.4rem;color:#fff;}
 #cta p{color:#777;font-size:.86rem;margin:.7rem auto 2.2rem;max-width:460px;line-height:1.8;}
+
+/* ── CONTATO ── */
 #contato{background:var(--dark2);}
 .cg{display:grid;grid-template-columns:1fr 1.4fr;gap:3.5rem;max-width:1100px;margin:2.5rem auto 0;}
 .ci{display:flex;flex-direction:column;gap:1.8rem;}
@@ -161,53 +180,72 @@ h2 em{font-style:italic;color:var(--gold);}
 .socials{display:flex;gap:.6rem;margin-top:.3rem;}
 .soc{width:34px;height:34px;border:1px solid rgba(201,168,76,.3);display:flex;align-items:center;justify-content:center;color:var(--gold);text-decoration:none;transition:.3s;}
 .soc:hover{background:var(--gold);color:var(--dark);}
-.mw{position:relative;}
 .mw iframe{width:100%;height:360px;border:none;filter:grayscale(.75) brightness(.65) contrast(1.1);}
+.mw{position:relative;}
 .mw::after{content:"";position:absolute;inset:0;border:1px solid rgba(201,168,76,.15);pointer-events:none;}
+
+/* ── FOOTER ── */
 footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2.2rem 5vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.1rem;}
-.fl{font-family:"Cormorant Garamond",serif;font-size:1.2rem;letter-spacing:.2em;color:var(--gold);font-weight:300;}
+.fl img{height:44px;width:44px;object-fit:contain;filter:drop-shadow(0 0 4px rgba(201,168,76,.25));}
 .fc{font-size:.6rem;letter-spacing:.1em;color:#3a3a3a;text-align:center;}
 .flinks{display:flex;gap:1.4rem;}
 .flinks a{font-size:.6rem;letter-spacing:.1em;color:#3a3a3a;text-decoration:none;text-transform:uppercase;transition:.3s;}
 .flinks a:hover{color:var(--gold);}
+
+/* ── WHATSAPP ── */
 .wa{position:fixed;bottom:1.6rem;right:1.6rem;z-index:99;width:54px;height:54px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(37,211,102,.4);text-decoration:none;animation:wap 3s ease-in-out infinite;}
 .wa:hover{transform:scale(1.1);}
 .wa svg{width:26px;height:26px;fill:#fff;}
 .wa-tip{position:absolute;right:62px;background:var(--dark2);color:#e8e0d0;font-size:.66rem;white-space:nowrap;padding:.3rem .65rem;border:1px solid rgba(201,168,76,.2);opacity:0;transition:.3s;pointer-events:none;}
 .wa:hover .wa-tip{opacity:1;}
 @keyframes wap{0%,100%{box-shadow:0 4px 16px rgba(37,211,102,.35);}50%{box-shadow:0 4px 28px rgba(37,211,102,.6);}}
+
+/* ── REVEAL ── */
 .rv{opacity:0;transform:translateY(26px);transition:opacity .72s ease,transform .72s ease;}
 .rv.in{opacity:1;transform:translateY(0);}
 .d1{transition-delay:.14s;}.d2{transition-delay:.28s;}.d3{transition-delay:.42s;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1024px){
+  .gg{grid-template-columns:repeat(2,1fr);}
+}
 @media(max-width:900px){
   .nav-links,.nav-cta{display:none;}
   .hbg{display:flex;}
   .hero-img{width:100%;opacity:.28;}
   .hero-fade{background:rgba(13,13,13,.62);}
   .sobre-g,.cg{grid-template-columns:1fr;}
-  .sobre-imgs img:first-child{height:260px;}
+  .sobre-imgs img{height:200px;}
   .sg{grid-template-columns:1fr 1fr;}
   .dg{grid-template-columns:1fr;}
-  .gg{grid-template-columns:1fr 1fr;}
-  .gi{height:180px;}.gi.tall{height:180px;}
   footer{flex-direction:column;text-align:center;}
 }
-@media(max-width:520px){
+@media(max-width:600px){
   h1{font-size:2.5rem;}
   .sg{grid-template-columns:1fr;}
+  .gg{grid-template-columns:repeat(2,1fr);}
   .stats{grid-template-columns:1fr 1fr;}
 }
 </style>
 </head>
 <body>
+
+<!-- NAV -->
 <nav id="nav">
-  <div class="nav-logo">Fernanda Make e Hair</div>
+  <div class="nav-logo">
+    <a href="#hero"><img src="images/logo.png" alt="Fernanda Abrahão Estética Capilar"/></a>
+  </div>
   <ul class="nav-links">
-    <li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#contato">Contato</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#contato">Contato</a></li>
   </ul>
   <a href="https://wa.me/5518998107574?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." class="nav-cta" target="_blank" rel="noopener noreferrer">Agendar</a>
   <div class="hbg" id="hbg" aria-label="Abrir menu" role="button" tabindex="0"><span></span><span></span><span></span></div>
 </nav>
+
+<!-- MOBILE MENU -->
 <div class="mm" id="mm">
   <button class="mm-close" onclick="closeMM()">✕</button>
   <a href="#sobre" onclick="closeMM()">Sobre</a>
@@ -216,12 +254,14 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2
   <a href="#contato" onclick="closeMM()">Contato</a>
   <a href="https://wa.me/5518998107574?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." target="_blank" rel="noopener noreferrer" style="color:var(--gold);border:1px solid var(--gold);padding:.65rem 2rem;">Agendar</a>
 </div>
+
+<!-- HERO -->
 <section id="hero">
   <div class="hero-bg"></div>
-  <img class="hero-img" src="images/hero.jpg" fetchpriority="high" alt="Fernanda Abraham — Cabeleireira"/>
+  <img class="hero-img" src="images/hero.jpg" alt="Fernanda Abrahão — Cabeleireira Profissional" fetchpriority="high"/>
   <div class="hero-fade"></div>
   <div class="hero-content">
-    <div class="hero-tag rv">Cabeleireira &amp; Maquiadora · Andradina SP</div>
+    <div class="hero-tag rv">Estética Capilar · Andradina SP</div>
     <h1 class="rv d1">Arte que<br/><em>transforma</em><br/>você</h1>
     <p class="hero-sub rv d2">Atendimento personalizado · Resultados que impressionam</p>
     <div class="hero-btns rv d3">
@@ -234,20 +274,30 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2
   </div>
   <div class="scind"><div class="scline"></div><span>scroll</span></div>
 </section>
-<div class="mqstrip"><div class="mqtrack"><span>Corte</span><span class="d">✦</span><span>Coloração</span><span class="d">✦</span><span>Escova</span><span class="d">✦</span><span>Progressiva</span><span class="d">✦</span><span>Luzes &amp; Mechas</span><span class="d">✦</span><span>Maquiagem</span><span class="d">✦</span><span>Make Noiva</span><span class="d">✦</span><span>Tratamentos</span><span class="d">✦</span><span>Corte</span><span class="d">✦</span><span>Coloração</span><span class="d">✦</span><span>Escova</span><span class="d">✦</span><span>Progressiva</span><span class="d">✦</span><span>Luzes &amp; Mechas</span><span class="d">✦</span><span>Maquiagem</span><span class="d">✦</span><span>Make Noiva</span><span class="d">✦</span><span>Tratamentos</span><span class="d">✦</span></div></div>
+
+<!-- MARQUEE -->
+<div class="mqstrip">
+  <div class="mqtrack">
+    <span>Corte</span><span class="d">✦</span><span>Coloração</span><span class="d">✦</span><span>Escova</span><span class="d">✦</span><span>Progressiva</span><span class="d">✦</span><span>Luzes &amp; Mechas</span><span class="d">✦</span><span>Maquiagem</span><span class="d">✦</span><span>Make Noiva</span><span class="d">✦</span><span>Tratamentos</span><span class="d">✦</span>
+    <span>Corte</span><span class="d">✦</span><span>Coloração</span><span class="d">✦</span><span>Escova</span><span class="d">✦</span><span>Progressiva</span><span class="d">✦</span><span>Luzes &amp; Mechas</span><span class="d">✦</span><span>Maquiagem</span><span class="d">✦</span><span>Make Noiva</span><span class="d">✦</span><span>Tratamentos</span><span class="d">✦</span>
+  </div>
+</div>
+
+<!-- SOBRE -->
 <section id="sobre">
   <div class="sobre-g">
     <div class="sobre-imgs rv">
       <div class="gf"></div>
-      <img src="images/sobre-1.jpg" alt="Fernanda com secador"/ loading="lazy" width="733" height="1100"/>
-      <img src="images/sobre-2.jpg" alt="Look profissional"/ loading="lazy" width="466" height="700"/>
-      <img src="images/sobre-3.jpg" alt="Fernanda close"/ loading="lazy" width="466" height="700"/>
+      <img src="images/sobre-1.jpg" alt="Fernanda Abrahão — estúdio" loading="lazy" width="700" height="1050"/>
+      <img src="images/sobre-2.jpg" alt="Fernanda — atendimento" loading="lazy" width="466" height="700"/>
+      <img src="images/sobre-3.jpg" alt="Fernanda — look profissional" loading="lazy" width="466" height="700"/>
+      <img src="images/sobre-4.jpg" alt="Fernanda — sessão de fotos" loading="lazy" width="700" height="875"/>
       <div class="gf2"></div>
     </div>
     <div class="sobre-tx rv d1">
       <div class="stag">Sobre mim</div>
       <h2>Beleza que conta<br/>uma <em>história</em></h2>
-      <p>Sou Fernanda Abraham, cabeleireira e maquiadora profissional apaixonada pela arte de realçar a beleza única de cada mulher. Cada fio, cada traço de make é pensado para expressar a sua essência.</p>
+      <p>Sou Fernanda Abrahão, cabeleireira e maquiadora profissional apaixonada pela arte de realçar a beleza única de cada mulher. Cada fio, cada traço de make é pensado para expressar a sua essência.</p>
       <p>Com anos de experiência em Andradina, ofereço um atendimento personalizado, num espaço aconchegante onde você se sente especial do início ao fim.</p>
       <div class="stats">
         <div class="stat"><div class="stat-n">+8</div><div class="stat-l">Anos de experiência</div></div>
@@ -259,6 +309,8 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2
     </div>
   </div>
 </section>
+
+<!-- SERVIÇOS -->
 <section id="servicos">
   <div class="sh rv"><div class="stag c">Serviços</div><h2>O que posso<br/>fazer por <em>você</em></h2><p>Cada serviço é realizado com produtos de alta qualidade e técnicas atualizadas para um resultado que dura e impressiona.</p></div>
   <div class="sg">
@@ -270,64 +322,134 @@ footer{background:var(--dark);border-top:1px solid rgba(201,168,76,.1);padding:2
     <div class="sc rv d2"><div class="sc-num">06</div><div class="sc-icon">✨</div><div class="sc-name">Tratamentos Capilares</div><div class="sc-desc">Hidratação, reconstrução e cronograma capilar para devolver vida, brilho e saúde aos seus fios.</div></div>
   </div>
 </section>
+
+<!-- GALERIA -->
 <section id="galeria">
-  <div class="gh rv"><div class="stag c">Galeria</div><h2>Resultados que<br/><em>falam</em> por si</h2></div>
+  <div class="gh rv">
+    <div class="stag c">Galeria</div>
+    <h2>Resultados que<br/><em>falam</em> por si</h2>
+  </div>
   <div class="gg">
-    <div class="gi tall rv"><img src="images/gal-1.jpg" alt="Noiva"/ loading="lazy" width="800" height="1067"/></div>
-    <div class="gi rv d1"><img src="images/gal-2.jpg" alt="Prancha"/ loading="lazy" width="466" height="700"/></div>
-    <div class="gi rv d2"><img src="images/gal-3.jpg" alt="Look"/ loading="lazy" width="466" height="700"/></div>
-    <div class="gi rv d1"><img src="images/gal-4.jpg" alt="Maquiagem"/ loading="lazy" width="525" height="700"/></div>
-    <div class="gi rv d2"><img src="images/gal-5.jpg" alt="Sessão"/ loading="lazy" width="466" height="700"/></div>
-    <div class="gi tall rv d1"><img src="images/gal-6.jpg" alt="Secador"/ loading="lazy" width="733" height="1100"/></div>
+    <div class="gi rv">
+      <img src="images/gal-1.jpg" alt="Noiva — cabelo e make" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Make Noiva</span></div>
+    </div>
+    <div class="gi rv d1">
+      <img src="images/gal-2.jpg" alt="Maquiagem profissional" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Maquiagem</span></div>
+    </div>
+    <div class="gi rv d2">
+      <img src="images/gal-3.jpg" alt="Look completo" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Estilo</span></div>
+    </div>
+    <div class="gi rv d3">
+      <img src="images/gal-4.jpg" alt="Sessão de fotos" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Estilo</span></div>
+    </div>
+    <div class="gi rv">
+      <img src="images/gal-5.jpg" alt="Cabelo cacheado" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Cachos</span></div>
+    </div>
+    <div class="gi rv d1">
+      <img src="images/gal-6.jpg" alt="Coloração ruiva lisa" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Coloração</span></div>
+    </div>
+    <div class="gi rv d2">
+      <img src="images/gal-7.jpg" alt="Trança com make" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Tranças &amp; Make</span></div>
+    </div>
+    <div class="gi rv d3">
+      <img src="images/gal-8.jpg" alt="Luzes e mechas loiras" loading="lazy" width="600" height="800"/>
+      <div class="gi-overlay"><span class="gi-label">Luzes &amp; Mechas</span></div>
+    </div>
   </div>
 </section>
+
+<!-- DEPOIMENTOS -->
 <section id="depoimentos">
-  <div style="text-align:center;" class="rv"><div class="stag c">Depoimentos</div><h2>O que dizem<br/><em>minhas clientes</em></h2></div>
+  <div style="text-align:center;" class="rv">
+    <div class="stag c">Depoimentos</div>
+    <h2>O que dizem<br/><em>minhas clientes</em></h2>
+  </div>
   <div class="dg">
     <div class="dc rv"><div class="d-stars">★★★★★</div><p class="d-text">A Fernanda fez meu cabelo e maquiagem para o casamento e ficou perfeito. Me senti a noiva mais linda do mundo!</p><div class="d-auth">— Ana Paula M.</div></div>
     <div class="dc rv d1"><div class="d-stars">★★★★★</div><p class="d-text">Melhor cabeleireira de Andradina! Atendimento cuidadoso, ambiente lindo e resultado impecável. Não troco por nada!</p><div class="d-auth">— Juliana S.</div></div>
     <div class="dc rv d2"><div class="d-stars">★★★★★</div><p class="d-text">Fiz luzes com ela e amei! O cabelo ficou com uma cor linda e natural. Ela entende exatamente o que você quer.</p><div class="d-auth">— Camila R.</div></div>
   </div>
 </section>
+
+<!-- CTA -->
 <section id="cta">
   <div>
     <div class="rv"><span class="cline"></span><span style="font-family:'Cormorant Garamond',serif;font-size:.88rem;letter-spacing:.38em;color:var(--gold);text-transform:uppercase;">Agende agora</span><span class="cline"></span></div>
     <h2 class="rv d1">Pronta para se<br/><em>transformar</em>?</h2>
-    <p class="rv d2">Entre em contato pelo WhatsApp e garanta seu horário. Atendimento de segunda a sábado, das 8h às 18h.</p>
+    <p class="rv d2">Entre em contato pelo WhatsApp e garanta seu horário.<br/>Segunda a Sábado · 08h às 18h</p>
     <a href="https://wa.me/5518998107574?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." class="btn-gold rv d3" target="_blank" rel="noopener noreferrer" style="margin:0 auto;width:fit-content;">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.528 5.852L0 24l6.335-1.508A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.031-1.388l-.361-.214-3.76.894.954-3.666-.234-.375A9.818 9.818 0 012.182 12C2.182 6.575 6.575 2.182 12 2.182S21.818 6.575 21.818 12 17.425 21.818 12 21.818z"/></svg>
       Falar no WhatsApp
     </a>
   </div>
 </section>
+
+<!-- CONTATO -->
 <section id="contato">
-  <div style="text-align:center;" class="rv"><div class="stag c">Onde estamos</div><h2>Venha nos<br/><em>visitar</em></h2></div>
+  <div style="text-align:center;" class="rv">
+    <div class="stag c">Onde estamos</div>
+    <h2>Venha nos<br/><em>visitar</em></h2>
+  </div>
   <div class="cg">
     <div class="ci">
-      <div class="cb rv"><div class="cion">📍</div><div><div class="clbl">Endereço</div><div class="cval">Rua Jefferson Correia de Lima, 30<br/>Andradina — SP</div></div></div>
-      <div class="cb rv d1"><div class="cion">📱</div><div><div class="clbl">WhatsApp</div><div class="cval"><a href="https://wa.me/5518998107574" target="_blank" rel="noopener noreferrer" style="color:#ccc;text-decoration:none;">(18) 99810-7574</a></div></div></div>
-      <div class="cb rv d2"><div class="cion">🕐</div><div><div class="clbl">Horário</div><div class="cval">Segunda a Sábado · 08:00 às 18:00</div></div></div>
-      <div class="cb rv d3"><div class="cion">🔗</div><div><div class="clbl">Redes Sociais</div>
-        <div class="socials">
-          <a href="https://www.instagram.com/fernandaabraha0" target="_blank" rel="noopener noreferrer" class="soc" title="Instagram" aria-label="Instagram de Fernanda Make e Hair"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
-          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="soc" title="Facebook" aria-label="Facebook de Fernanda Make e Hair"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+      <div class="cb rv">
+        <div class="cion">📍</div>
+        <div><div class="clbl">Endereço</div><div class="cval">Rua Jefferson Correia de Lima, 30<br/>Andradina — SP</div></div>
+      </div>
+      <div class="cb rv d1">
+        <div class="cion">📱</div>
+        <div><div class="clbl">WhatsApp</div><div class="cval"><a href="https://wa.me/5518998107574" target="_blank" rel="noopener noreferrer" style="color:#ccc;text-decoration:none;">(18) 99810-7574</a></div></div>
+      </div>
+      <div class="cb rv d2">
+        <div class="cion">🕐</div>
+        <div><div class="clbl">Horário</div><div class="cval">Segunda a Sábado · 08:00 às 18:00</div></div>
+      </div>
+      <div class="cb rv d3">
+        <div class="cion">🔗</div>
+        <div>
+          <div class="clbl">Redes Sociais</div>
+          <div class="socials">
+            <a href="https://www.instagram.com/fernandaabraha0" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Instagram">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="soc" aria-label="Facebook">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
         </div>
-      </div></div>
+      </div>
     </div>
     <div class="mw rv d1">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.5!2d-51.3782!3d-20.8966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRua+Jefferson+Correia+de+Lima%2C+30%2C+Andradina%2C+SP!5e0!3m2!1spt-BR!2sbr!4v1" allowfullscreen loading="lazy"></iframe>
+      <iframe src="https://maps.google.com/maps?q=Rua+Jefferson+Correia+de+Lima,+30,+Andradina,+SP&output=embed" allowfullscreen loading="lazy" title="Localização Fernanda Abrahão Estética Capilar"></iframe>
     </div>
   </div>
 </section>
+
+<!-- FOOTER -->
 <footer>
-  <div class="fl">Fernanda Make e Hair</div>
-  <div class="fc">© 2025 Fernanda Make e Hair · Andradina, SP · Todos os direitos reservados</div>
-  <div class="flinks"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#galeria">Galeria</a><a href="#contato">Contato</a></div>
+  <div class="fl"><img src="images/logo.png" alt="Fernanda Abrahão"/></div>
+  <div class="fc">© 2025 Fernanda Abrahão Estética Capilar · Andradina, SP · Todos os direitos reservados</div>
+  <div class="flinks">
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </div>
 </footer>
+
+<!-- WHATSAPP FLOAT -->
 <a href="https://wa.me/5518998107574?text=Olá!%20Gostaria%20de%20agendar%20um%20horário." class="wa" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp">
   <span class="wa-tip">Agendar agora</span>
   <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.122 1.528 5.852L0 24l6.335-1.508A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.806 9.806 0 01-5.031-1.388l-.361-.214-3.76.894.954-3.666-.234-.375A9.818 9.818 0 012.182 12C2.182 6.575 6.575 2.182 12 2.182S21.818 6.575 21.818 12 17.425 21.818 12 21.818z"/></svg>
 </a>
+
 <script>
 const nav=document.getElementById("nav");
 window.addEventListener("scroll",()=>nav.classList.toggle("scrolled",scrollY>80));

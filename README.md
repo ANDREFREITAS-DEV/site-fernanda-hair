@@ -1,45 +1,26 @@
-# Fernanda Make e Hair — Landing Page
+# Fernanda Abrahão — Estética Capilar
 
-Landing page profissional para **Fernanda Make e Hair** — Andradina, SP.
+Landing page profissional · Andradina SP
 
 ## Estrutura
 ```
 fernanda-hair/
-├── index.html        ← página principal
-├── images/           ← todas as fotos otimizadas
+├── index.html
+├── images/
+│   ├── logo.png         (logo sem fundo)
 │   ├── hero.jpg
-│   ├── sobre-1.jpg
-│   ├── sobre-2.jpg
-│   ├── sobre-3.jpg
-│   ├── gal-1.jpg
-│   ├── gal-2.jpg
-│   ├── gal-3.jpg
-│   ├── gal-4.jpg
-│   ├── gal-5.jpg
-│   └── gal-6.jpg
-├── vercel.json       ← config de cache para Vercel
+│   ├── sobre-1..4.jpg
+│   ├── gal-1..8.jpg     (600x800 uniforme)
+├── vercel.json
 └── .gitignore
 ```
 
-## Deploy na Vercel
+## Deploy
+Drag & drop a pasta em vercel.com/new — ou conecte o repositório GitHub.
 
-### Drag & Drop (mais rápido)
-1. Acesse vercel.com/new
-2. Arraste esta pasta
-
-### Via GitHub
-```bash
-git init
-git add .
-git commit -m "feat: landing Fernanda Make e Hair"
-git remote add origin https://github.com/SEU_USER/fernanda-hair.git
-git push -u origin main
-```
-Depois conecte o repo na Vercel.
-
-## Para trocar uma foto
-Substitua qualquer arquivo em `/images/` pelo novo (mesmo nome), faça commit e push — a Vercel atualiza automaticamente.
+## Trocar foto
+Substitua o arquivo em /images/ com o mesmo nome → commit → push.
 
 ## Pendências
-- Substituir URL do Facebook (`https://www.facebook.com/`) pelo link real
-- Atualizar depoimentos com nomes reais das clientes
+- Substituir URL do Facebook pelos dois `https://www.facebook.com/`
+- Atualizar depoimentos com nomes reais
